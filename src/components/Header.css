@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    margin-right: 200px;
+    margin-left: 50px;
+    width:px;
+    height: 50px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.header-text p {
+    margin: 0;
+}
