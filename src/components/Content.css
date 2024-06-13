@@ -57,3 +57,8 @@ button:hover {
 .stationSelected {
     color: #01889F;
 }
+
+button.active {
+    background-color: #007BFF;
+    color: white;
+}

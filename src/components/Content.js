@@ -160,12 +160,17 @@ function Content() {
       <div className="provinces-container">
         <div className="provinces-scrollable">
           <div>
-            <button onClick={handleAllStationsClick}>TOUTES LES STATIONS</button>
+            <button
+              onClick={handleAllStationsClick}
+              className={showAllStations ? 'selected' : ''}
+            >TOUTES LES STATIONS
+            </button>
             {showAllStations && (
               <ul>
                 {stationInfo.map((stationData, index) => (
                   <li key={index}>
-                    <a href="#" onClick={() => handleStationClick(stationData[0])}>
+                    <a href="#" onClick={() => handleStationClick(stationData[0])}
+                    >
                       {stationData[0]} ({stationData[5]})
                     </a>
                   </li>
